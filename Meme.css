@@ -1,0 +1,39 @@
+body {
+	height: 100vh;
+}
+#bottom-body {
+	background-color: slategray;
+}
+#top-form {
+	background-color: skyblue;
+	text-align: center;
+}
+#meme {
+	margin-left: auto;
+	margin-right: auto;
+	width: 30em;
+	height: 20em;
+	background-size: 100% 100%;
+	position: relative;
+}
+#topdiv {
+	text-align: center;
+	position: relative;
+	top: 15px;
+	font-family: 'Anton', sans-serif;
+	font-size: 40px;
+	text-shadow: 5px 5px #ffffff, -5px -5px #ffffff;
+}
+#btmdiv {
+	text-align: center;
+	position: relative;
+	bottom: -200px;
+	font-family: 'Anton', sans-serif;
+	font-size: 40px;
+	text-shadow: 5px 5px #ffffff, -5px -5px #ffffff;
+}
+#removebtn {
+	position: absolute;
+	top: 2px;
+	right: 2px;
+}
